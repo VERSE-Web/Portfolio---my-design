@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color: blueviolet;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.Heading{
+    text-align: center;
+}
+
+.href{
+    color: black;
+}
+
+.section1{
+    float: left; 
+    animation: fadeIn 1s ease-in forwards;
+    animation-duration: 3s;
+}
+.slide-in{
+    position: relative;
+  animation: slideFromRight 1s ease-out forwards;
+}
+
+@keyframes slideFromRight {
+  from {
+    right: -100%;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+#disc{
+    background-color: blueviolet;
+    color: black;
+    font-size: large;
+    border-bottom: 23px solid palevioletred;
+    border-right: 23px solid palevioletred;
+    border-radius: 35px;
+    padding-bottom: 10px;
+}
+
+#section2{
+    color: black;
+    border-top: 7px solid blueviolet;
+}
+
+.RXseven{
+    font-size: larger;
+    animation: fadeIn 1s ease-in forwards;
+    animation-duration: 3s;
+    background-color: blueviolet;
+    color:black;
+    border-right: 15px solid palevioletred;
+    border-bottom: 15px solid palevioletred;
+    border-radius: 20px;
+}
+
+@keyframes fadeIn {
+  from{
+   opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.feet, #href2{
+    text-align: center;
+    color:blueviolet;
+}
+.S74427{
+  background-color: blueviolet;
+  color: black;
+  width: 280px;
+  margin-left: 38%;
+  border-right: 20px solid palevioletred;
+  border-bottom: 20px solid palevioletred;
+  border-radius: 10px;
+  text-align: center;
+
+}
+.S74427 img{
+  width: 260px;
+  height: 200px;
+}
+.S74427 a{
+  text-decoration: none;
+  color: black;
+  
+}
